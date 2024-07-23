@@ -9,4 +9,3 @@ const jokesService = new JokesService();
 
 run(alertService, calculatorService, jokesService);
 
-alert("halo selamat datang di website wpu")
