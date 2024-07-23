@@ -4,8 +4,7 @@
   "description": "",
   "private": "true",
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch"
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
