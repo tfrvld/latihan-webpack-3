@@ -1,3 +1,4 @@
+const { watch } = require('fs');
 const path = require('path');
 
 module.exports = {
@@ -6,5 +7,6 @@ module.exports = {
    output: {
       path: path.resolve(__dirname, 'output'),
       filename: 'bundle.js'
-   }
+   },
+   watch: true,
 }
